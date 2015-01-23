@@ -1,0 +1,3 @@
+Start: Fri, 23 Jan 2015 09:02:00 -0800
+End: Fri, 23 Jan 2015 9:20:00 -0800
+Tasks: I cloned the assignment files into my github repo. I read up on how to do the work log.
