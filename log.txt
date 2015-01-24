@@ -9,3 +9,7 @@ Tasks: Completed the variable functions. Test for variables run green.
 Start: Fri, 23 Jan 2015 23:13:37 -0800
 End: Fri, 23 Jan 2015 23:39:37 -0800
 Tasks: Implemented uselessFunction and anonymous function in the functions file.
+
+Start: Sat, 24 Jan 2015 11:03:07 -0800
+End: Sat, 24 Jan 2015 12:22:07 -0800
+Tasks: Finished the parseGit method in the functions file.
