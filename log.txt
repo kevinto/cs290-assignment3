@@ -5,3 +5,7 @@ Tasks: initial commmit of the assingment files
 Start: Fri, 23 Jan 2015 16:05:29 -0800
 End: Fri, 23 Jan 2015 16:26:29 -0800
 Tasks: Completed the variable functions. Test for variables run green.
+
+Start: Fri, 23 Jan 2015 23:13:37 -0800
+End: Fri, 23 Jan 2015 23:39:37 -0800
+Tasks: Implemented uselessFunction and anonymous function in the functions file.
