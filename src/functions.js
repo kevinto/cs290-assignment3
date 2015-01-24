@@ -13,7 +13,9 @@
 */
 
 //your code here
-
+function uselessFunction() {
+	return null;
+}
 //end your code
 
 var bar = 'not a function';
@@ -21,7 +23,7 @@ var barType = typeof bar;
 
 /**
 * Assign the above variable 'bar' to an anonymous function with the following
-* properites.
+* properties.
 * @param {float[]} doubleArray - an array of floating point numbers.
 * The function should multiply every number in the array by 2 (this should
 * change the content of the array).
@@ -30,7 +32,21 @@ var barType = typeof bar;
 */
 
 //your code here
+bar = function(doubleArray) {
+	for (var i = doubleArray.length - 1; i >= 0; i--) {
+		// Double each element in array
+		doubleArray[i] = doubleArray[i] * 2;
 
+		// Check if an element in the array is not a number
+		if (isNaN(doubleArray[i])) {
+			// Return false, if any array element is number a number
+			return false;
+		}
+	}
+
+	// Return true, all array elements are numbers
+	return true;
+} 
 //end your code
 
 /**
