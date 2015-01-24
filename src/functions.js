@@ -46,7 +46,7 @@ bar = function(doubleArray) {
 
 	// Return true, all array elements are numbers
 	return true;
-} 
+}
 //end your code
 
 /**
@@ -82,5 +82,21 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
+function parseGit(logArray) {
+	var gitArray = new Array(3);
+	for (var i = 0; i < logArray.length; i++) {
+		var hash = logArray[i].split(' ')[0];
 
+		var startingPositionOfDate = logArray[i].indexOf(' ');
+		var endingPositionOfDate = logArray[i].indexOf('"');
+		var dateString = logArray[i].substring(startingPositionOfDate + 1, endingPositionOfDate - 1);
+		var date = new Date(dateString);
+
+		var message = logArray[i].split('"')[1];
+
+		gitArray[i] = new GitLog(hash, date, message);
+	}
+
+	return gitArray;
+}
 //end your code
