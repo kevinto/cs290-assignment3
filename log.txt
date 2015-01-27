@@ -17,3 +17,7 @@ Tasks: Finished the parseGit method in the functions file.
 Start: Mon, 26 Jan 2015 22:30:12 -0800
 End: Mon, 26 Jan 2015 23:18:12 -0800
 Tasks: Finished first function in the object file. Started work on the second function of the object file.
+
+Start: Tue, 27 Jan 2015 08:00:28 -0800
+End: Tue, 27 Jan 2015 08:45:28 -0800
+Tasks: Finished coding messageLog to pass the tests
