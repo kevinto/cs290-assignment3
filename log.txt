@@ -21,3 +21,7 @@ Tasks: Finished first function in the object file. Started work on the second fu
 Start: Tue, 27 Jan 2015 08:00:28 -0800
 End: Tue, 27 Jan 2015 08:45:28 -0800
 Tasks: Finished coding messageLog to pass the tests
+
+Start: Tue, 27 Jan 2015 08:45:21 -0800
+End: Tue, 27 Jan 2015 08:52:21 -0800
+Tasks: Finished getting the last test to pass in the object file.
