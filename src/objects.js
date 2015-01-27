@@ -46,13 +46,17 @@ function returnObjectLiteral() {
 function MessageLog(user) {
   this.totalSentMsg = 0;
   this.totalReceivedMsg = 0;
-  this.lastMsgSent;
   this.lastMsgReceived;
+  this.savedSentMsgs = new Array();
 
   this.logMessage = function(messageText, direction) {
     if (direction === 0) {
       this.totalSentMsg++;
-      this.lastMsgSent = messageText;
+
+      this.savedSentMsgs.unshift(messageText);
+      if (this.savedSentMsgs.length > 5){
+        this.savedSentMsgs.pop();
+      }
     }
 
     if (direction === 1) {
@@ -61,12 +65,19 @@ function MessageLog(user) {
     }
   };
 
+  this.getSentMessage = function(n) {
+    if (n >= 0 && n <= this.savedSentMsgs.length)
+    {
+      return this.savedSentMsgs[n];
+    }
+  };
+
   this.totalSent = function() {
-    return totalSentMsg;
+    return this.totalSentMsg;
   };
 
   this.totalReceived = function() {
-    return totalReceivedMsg;
+    return this.totalReceivedMsg;
   }
 }
 //end your code
@@ -77,7 +88,9 @@ function MessageLog(user) {
 * received.
 */
 //your code here
-
+MessageLog.prototype.lastReceivedMessage = function() {
+  return this.lastMsgReceived;
+}
 //end your code
 
 /**
