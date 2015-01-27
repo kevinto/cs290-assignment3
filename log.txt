@@ -13,3 +13,7 @@ Tasks: Implemented uselessFunction and anonymous function in the functions file.
 Start: Sat, 24 Jan 2015 11:03:07 -0800
 End: Sat, 24 Jan 2015 12:22:07 -0800
 Tasks: Finished the parseGit method in the functions file.
+
+Start: Mon, 26 Jan 2015 22:30:12 -0800
+End: Mon, 26 Jan 2015 23:18:12 -0800
+Tasks: Finished first function in the object file. Started work on the second function of the object file.
