@@ -11,9 +11,9 @@
 function returnObjectLiteral() {
   //your code here
   return {
-    type: "Goldfish",
+    type: 'Goldfish',
     brand: 'Pepperidge Farm',
-    flavor: "Cheddar",
+    flavor: 'Cheddar',
     count: 2000
   };
   //end your code
@@ -54,7 +54,7 @@ function MessageLog(user) {
       this.totalSentMsg++;
 
       this.savedSentMsgs.unshift(messageText);
-      if (this.savedSentMsgs.length > 5){
+      if (this.savedSentMsgs.length > 5) {
         this.savedSentMsgs.pop();
       }
     }
@@ -78,7 +78,7 @@ function MessageLog(user) {
 
   this.totalReceived = function() {
     return this.totalReceivedMsg;
-  }
+  };
 }
 //end your code
 
@@ -90,7 +90,7 @@ function MessageLog(user) {
 //your code here
 MessageLog.prototype.lastReceivedMessage = function() {
   return this.lastMsgReceived;
-}
+};
 //end your code
 
 /**
@@ -100,8 +100,8 @@ MessageLog.prototype.lastReceivedMessage = function() {
 */
 
 //your code here
-var myLog = new MessageLog("BlackHatGuy");
-myLog.logMessage("foo", 1);
-myLog.logMessage("bar", 1);
-myLog.logMessage("baz", 1);
+var myLog = new MessageLog('BlackHatGuy');
+myLog.logMessage('foo', 1);
+myLog.logMessage('bar', 1);
+myLog.logMessage('baz', 1);
 //end your code

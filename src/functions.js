@@ -14,7 +14,7 @@
 
 //your code here
 function uselessFunction() {
-	return null;
+  return null;
 }
 //end your code
 
@@ -33,20 +33,20 @@ var barType = typeof bar;
 
 //your code here
 bar = function(doubleArray) {
-	for (var i = doubleArray.length - 1; i >= 0; i--) {
-		// Double each element in array
-		doubleArray[i] = doubleArray[i] * 2;
+  for (var i = doubleArray.length - 1; i >= 0; i--) {
+    // Double each element in array
+    doubleArray[i] = doubleArray[i] * 2;
 
-		// Check if an element in the array is not a number
-		if (isNaN(doubleArray[i])) {
-			// Return false, if any array element is number a number
-			return false;
-		}
-	}
+    // Check if an element in the array is not a number
+    if (isNaN(doubleArray[i])) {
+      // Return false, if any array element is number a number
+      return false;
+    }
+  }
 
-	// Return true, all array elements are numbers
-	return true;
-}
+  // Return true, all array elements are numbers
+  return true;
+};
 //end your code
 
 /**
@@ -83,20 +83,21 @@ function GitLog(hash, date, message) {
 
 //your code here
 function parseGit(logArray) {
-	var gitArray = new Array(3);
-	for (var i = 0; i < logArray.length; i++) {
-		var hash = logArray[i].split(' ')[0];
+  var gitArray = new Array(3);
 
-		var startingPositionOfDate = logArray[i].indexOf(' ');
-		var endingPositionOfDate = logArray[i].indexOf('"');
-		var dateString = logArray[i].substring(startingPositionOfDate + 1, endingPositionOfDate - 1);
-		var date = new Date(dateString);
+  for (var i = 0; i < logArray.length; i++) {
+    var hash = logArray[i].split(' ')[0];
 
-		var message = logArray[i].split('"')[1];
+    var startPosDate = logArray[i].indexOf(' ');
+    var endPosDate = logArray[i].indexOf('"');
+    var dateString = logArray[i].substring(startPosDate + 1, endPosDate - 1);
+    var date = new Date(dateString);
 
-		gitArray[i] = new GitLog(hash, date, message);
-	}
+    var message = logArray[i].split('"')[1];
 
-	return gitArray;
+    gitArray[i] = new GitLog(hash, date, message);
+  }
+
+  return gitArray;
 }
 //end your code
