@@ -25,3 +25,7 @@ Tasks: Finished coding messageLog to pass the tests
 Start: Tue, 27 Jan 2015 08:45:21 -0800
 End: Tue, 27 Jan 2015 08:52:21 -0800
 Tasks: Finished getting the last test to pass in the object file.
+
+Start: Wed, 28 Jan 2015 14:00:48 -0800 
+End: Wed, 28 Jan 2015 14:30:48 -0800
+Tasks: used gjslint to fix the variables.js file
