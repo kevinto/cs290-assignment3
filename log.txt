@@ -41,3 +41,7 @@ Tasks: initial commit of cs290 assignment 3 part 2
 Start: Wed, 28 Jan 2015 17:54:00 -0800
 End: Wed, 28 Jan 2015 19:54:00 -0800
 Tasks: initial commit of html and js files. tested files out with sample code from the lectures.
+
+Start: Wed, 28 Jan 2015 20:00:27 -0800
+End: Wed, 28 Jan 2015 20:29:27 -0800
+Tasks: Created sample code to call the gist API.
