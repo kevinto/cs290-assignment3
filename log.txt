@@ -37,3 +37,7 @@ Tasks: finished cleaning up functions and objects file using gjslint.
 Start: Wed, 28 Jan 2015 16:12:16 -0800
 End: Wed, 28 Jan 2015 16:21:16 -0800
 Tasks: initial commit of cs290 assignment 3 part 2
+
+Start: Wed, 28 Jan 2015 17:54:00 -0800
+End: Wed, 28 Jan 2015 19:54:00 -0800
+Tasks: initial commit of html and js files. tested files out with sample code from the lectures.
