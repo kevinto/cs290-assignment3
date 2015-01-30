@@ -49,3 +49,7 @@ Tasks: Created sample code to call the gist API.
 Start: Thu, 29 Jan 2015 08:00:04 -0800
 End: Thu, 29 Jan 2015 09:21:04 -0800
 Tasks: Added 5 pages with of gists to 5 different local storage variables
+
+Start: Thu, 29 Jan 2015 17:05:58 -0800
+End: Thu, 29 Jan 2015 18:58:58 -0800
+Tasks: Added the javascript to dynamically create a list item for each gist descri
