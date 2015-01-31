@@ -81,3 +81,15 @@ Tasks: added feature to display more than 1 page when the user requests it. also
 Start: Fri, 30 Jan 2015 22:20:45 -0800 
 End: Fri, 30 Jan 2015 23:38:45 -0800
 Tasks: finished implementing the language filtering feature
+
+Start: Sat, 31 Jan 2015 08:19:18 -0800
+End: Sat, 31 Jan 2015 09:34:18 -0800
+Tasks: Added favorites HTML section. Added functionality to see if there are any favorites saved in local storage
+
+Start: Sat, 31 Jan 2015 09:40:28 -0800
+End: Sat, 31 Jan 2015 10:39:28 -0800
+Tasks: implemented the population of the favorite list by clicking on the gist results.
+
+Start: Sat, 31 Jan 2015 10:40:22 -0800
+End: Sat, 31 Jan 2015 11:42:22 -0800
+Tasks: Implemented feature to display saved favorites between page reloads. Also implemented not displaying favorite gists in the gist list. Implemented feature to make unfavorited items appear on the gist list without a full page reload.
