@@ -69,3 +69,11 @@ Tasks: changed unordered list of gists to an ordered list of gists
 Start: Fri, 30 Jan 2015 16:59:46 -0800
 End: Fri, 30 Jan 2015 17:00:34 -0800
 Tasks: cleaned up some unused javascript code
+
+Start: Fri, 30 Jan 2015 20:05:18 -0800
+End: Fri, 30 Jan 2015 20:20:18 -0800
+Tasks: updated displayGist function to clear all list items before displaying anything
+
+Start: Fri, 30 Jan 2015 21:00:02 -0800
+End: Fri, 30 Jan 2015 21:34:02 -0800
+Tasks: added feature to display more than 1 page when the user requests it. also did some code cleanup
