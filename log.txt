@@ -61,3 +61,11 @@ Tasks: Finished implementing local storage for the AJAX gist calls.
 Start: Fri, 30 Jan 2015 16:09:00 -0800
 End: Fri, 30 Jan 2015 16:51:46 -0800
 Tasks: added html checkboxes and text boxes to be used for filtering later
+
+Start: Fri, 30 Jan 2015 16:51:46 -0800
+End: Fri, 30 Jan 2015 16:59:46 -0800
+Tasks: changed unordered list of gists to an ordered list of gists
+
+Start: Fri, 30 Jan 2015 16:59:46 -0800
+End: Fri, 30 Jan 2015 17:00:34 -0800
+Tasks: cleaned up some unused javascript code
