@@ -77,3 +77,7 @@ Tasks: updated displayGist function to clear all list items before displaying an
 Start: Fri, 30 Jan 2015 21:00:02 -0800
 End: Fri, 30 Jan 2015 21:34:02 -0800
 Tasks: added feature to display more than 1 page when the user requests it. also did some code cleanup
+
+Start: Fri, 30 Jan 2015 22:20:45 -0800 
+End: Fri, 30 Jan 2015 23:38:45 -0800
+Tasks: finished implementing the language filtering feature
