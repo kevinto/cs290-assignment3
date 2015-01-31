@@ -57,3 +57,7 @@ Tasks: Added the javascript to dynamically create a list item for each gist desc
 Start: Fri, 30 Jan 2015 08:00:00 -0800
 End: Fri, 30 Jan 2015 09:29:57 -0800
 Tasks: Finished implementing local storage for the AJAX gist calls.
+
+Start: Fri, 30 Jan 2015 16:09:00 -0800
+End: Fri, 30 Jan 2015 16:51:46 -0800
+Tasks: added html checkboxes and text boxes to be used for filtering later
