@@ -99,3 +99,15 @@ Tasks: Implemented feature to display saved favorites between page reloads. Also
 Start: Sat, 31 Jan 2015 13:59:52 -0800
 End: Sat, 31 Jan 2015 15:54:52 -0800
 Tasks: renamed the javascript file. cleaned up code to comply to gslint. implemented page number validation on the html text box. fixed bug to save page number after user navigates to another page and presses back
+
+Start: Sat, 31 Jan 2015 15:54:52 -0800
+End: Sat, 31 Jan 2015 16:03:20 -0800
+Tasks: cleaned up the renaming of the js file
+
+Start: Sat, 31 Jan 2015 16:03:20 -0800
+End: Sat, 31 Jan 2015 16:07:14 -0800
+Tasks: updated readme
+
+Start: Sat, 31 Jan 2015 16:07:14 -0800 
+End: Sat, 31 Jan 2015 16:37:46 -0800
+Tasks: fixed bug where gists were not appearing at first load
